@@ -4,4 +4,4 @@ function getTime(){
 	document.getElementById('timer').innerHTML = time;
 }
 getTime();
-setIntervel(getTime,1000);
+setInterval(getTime,100);
